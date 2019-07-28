@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "strict": false,
+    "typeRoots": [
+      "./node_modules/@types/"
+    ],
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "outDir": ""
+  },
+  "include": [ "./src/**/*", "index.ts" ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
+  "compileOnSave": true
+}
